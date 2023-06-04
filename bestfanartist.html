@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>BestFanArtist</title>
+	<link href="https://fonts.cdnfonts.com/css/sf-pro-display" rel="stylesheet">
+	<style type="text/css">
+		@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+		html{font-family: 'SF Pro Display', sans-serif;}
+
+		body{margin: 0;}
+
+		.border{
+			border-style: solid;
+			border-width: 1px;
+			border-color: #707070;
+		}
+
+		.container{
+			flex-grow: 1;
+			margin: 0 auto;
+		}
+
+		.box{
+			background-color: red;
+			padding: 0px;
+			display: flex;
+			height: 1040px;
+		}
+
+		.box-sidebar{
+			background-color: white;
+			padding: 0;
+			flex-shrink: 0;
+			width: 120px;
+			height: 1038px;
+		}
+		
+		.box-contents{
+			background-color: white;
+			padding: 0px;
+			flex-grow: 1;
+		}
+
+		.insideline1{
+			background-color: red;
+			height: 490px;
+			display: flex;
+			flex-grow: 1;
+		}
+
+		.insideline1-1{
+			background-color: black;
+			height: 490px;
+			flex-grow: 1;
+			font-weight: bold;
+			font-size: 6rem;
+		}
+
+		.insideline2{
+			background-color: white;
+			display: flex;
+		}
+
+		.insideline2-1{
+			background-color: black;
+			flex-shrink: 0;
+			width: 486px;
+			height: 486px;
+		}
+
+		.insideline2-2{
+			background-color: white;
+			flex-grow: 1;
+
+			padding-top: 50px;
+			padding-left: 50px;
+			padding-right: 80px;
+		}
+
+		.footer{
+			background-color: white;
+			height: 58px;
+			flex-grow: 1;
+			display: flex;
+		}
+
+		.footer1{
+			background-color: white;
+			height: 58px;
+			flex-grow: 1;
+		}
+
+		.footer2{
+			background-color: white;
+			height: 58px;
+			width: 340px;
+		}
+
+		.circle{
+			background-color: white;
+			height: 486px;
+			width: 486px;
+			border-radius: 50%;}
+
+		.textwhite{
+			color: white;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		<section class="box">
+			<aside class="box-sidebar border">
+				<a href="./menu.html">
+				<img style="width: 60%; display: block; margin: 0 auto; padding-top: 940px;" src="./menuicon.jpg">
+				</a>
+			</aside>
+				<div class="box-contents border">
+				 <div class="insideline1 border">
+				 	<div class="insideline1-1 textwhite">
+				 		<p style="margin: 0; padding-top: 30px; padding-left: 50px;">Best Fan Artist</p>
+				 		<p style="margin: 0; padding-top: 30px; padding-left: 50px; font-size: 4rem;">Ted Chiang</p>
+				 	</div>
+				</div>
+				<div class="insideline2">
+					<div class="insideline2-1">
+						<div class="circle"></div>
+					</div>
+					<div class="insideline2-2">
+						<p style="font-size: 2rem; font-weight: bold;">Ted Chiang</p>
+						<p style="font-size: 1.2rem; line-height: 1.5rem;">A scientist who majored in physics and computer science at Brown University in the U.S. and a novelist who is praised as the "treasure of the world's science fiction world." He is a writer who is recognized by contemporary scientific novel writers and is expected by contemporary Shihak novel readers, and has won four Hugo Awards, four Rockers Awards, and four Nebulers Awards. </p>
+						<p style="font-size: 1.2rem; line-height: 1.5rem">He was honored as the youngest Nebuler Award winner in history for his first short film "The Tower of Babylon" released in 1990, and has since won the Sturgeon, Hugo, and Nebuler awards, drawing attention and support from critics and readers. Two works, Evolution of Human Science and What We Need to Do, were published in the world-renowned scientific journal Nature.</p>
+					</div>
+				</div>
+				<div class="footer border">
+					<div class="footer1"></div>
+					<div class="footer2"><p style="margin: 0; padding-top: 19px;">copyright 2023. YeonuCho. All rights reserved</p></div>
+				</div>
+			</div>
+			</div>
+		</section>
+	</div>
+</body>
+</html>

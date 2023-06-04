@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>event</title>
+	<link href="https://fonts.cdnfonts.com/css/sf-pro-display" rel="stylesheet">
+	<style>
+		@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+		html{font-family: 'SF Pro Display', sans-serif;}
+
+		body{margin: 0;}
+
+		.border{
+			border-style: solid;
+			border-width: 1px;
+			border-color: #707070;
+		}
+
+		.container{
+			flex-grow: 1;
+			margin: 0 auto;
+		}
+
+		.box{
+			background-color: red;
+			padding: 0px;
+			display: flex;
+			height: 1040px;
+		}
+
+		.box-sidebar{
+			background-color: white;
+			padding: 0;
+			flex-shrink: 0;
+			width: 120px;
+			height: 1040px;
+			position: fixed;
+		}
+		
+		.box-contents{
+			background-color: white;
+			padding: 0px;
+			flex-grow: 1;
+		}
+
+		.insideline0{
+			background-color: white;
+			width: 122px;
+			height: 1040px;
+			margin: 0;
+			display: flex;
+		}
+
+		.insideline1{
+			background-color: red;
+			height: 679px;
+			
+		}
+
+		.insideline2{
+			background-color: white;
+			padding: 50px;
+			
+			display: flex;
+		}
+
+		.footer{
+			background-color: white;
+			height: 58px;
+			flex-grow: 1;
+			display: flex;
+		}
+
+		.footer1{
+			background-color: white;
+			height: 58px;
+			flex-grow: 1;
+		}
+
+		.footer2{
+			background-color: white;
+			height: 58px;
+			width: 340px;
+		}
+
+		.buttonwrap{
+			display: flex;
+		}
+
+		.buttonblank{
+			background-color: white;
+			width: 1100px;
+
+		}
+
+		.button{
+			background-color: black;
+			width: 300px;
+			height: 60px;
+			margin-top: 1200px;
+		}
+
+		.textwhite{
+			color: white;
+		}
+
+		.textbox{
+			position: absolute;
+			top: 5%;
+			left: 10%;
+		}
+
+		a{
+			text-decoration: none;
+			color: black;
+		}
+
+		.button:hover{
+			background-color: red;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		<section class="box">
+			<aside class="box-sidebar border">
+				<a href="./menu.html">
+				<img style="width: 60%; display: block; margin: 0 auto; padding-top: 940px;" src="./menuicon.jpg">
+				</a>
+			</aside>
+			<div class="insideline0"></div>
+			<div class="box-contents border">
+				<div class="insideline1 border">
+					<div class="textbox textwhite">
+						<p style="font-size: 6rem; font-weight: bold; margin: 0;">Academic Presentation</p>
+						<p style="font-size: 3rem; font-weight: bold; margin: 0;">about AI of SF Literature in ChatGPT era</p>
+						<p style="font-size: 1.2rem; margin-top: 20px;">July 16th 2023 - July 18th 2023</p>
+						<p>by Alex Han</p>
+					</div>
+					<img style="object-fit: cover; width: 100%; display: block; margin: 0 auto; "src="../lecture.jpg">
+				</div>
+				<div class="insideline2 border">
+					<div class="buttonwrap">
+							<div class="buttonblank">
+							<p style="font-size: 2rem; font-weight: bold;">Academic Presentation: AI in SF Literature in the ChatGPT Era</p>
+
+							<p style="font-size: 1.2rem; font-weight: bold; line-height: 1.5rem;">Introduction</p>
+
+							<p style="line-height: 1.5rem;">Welcome the audience and introduce the topic: AI in Science Fiction (SF) Literature in the ChatGPT Era. Briefly explain that AI, particularly in the form of ChatGPT, has become a powerful tool for generating human-like text and has influenced various aspects of SF literature.</p>
+
+							<p style="font-size: 1.2rem; font-weight: bold; line-height: 1.5rem;">SF Literature and AI</p>
+
+							<p style="line-height: 1.5rem;">Discuss the longstanding relationship between SF literature and AI. Highlight how SF authors have envisioned and explored the impact of AI on society, ethics, and human existence.
+							Mention notable examples of AI in SF literature, such as Isaac Asimov's "I, Robot" or Philip K. Dick's "Do Androids Dream of Electric Sheep?".</p>
+
+							<p style="font-size: 1.2rem; font-weight: bold; line-height: 1.5rem;">The Emergence of ChatGPT</p>
+
+							<p style="line-height: 1.5rem;">Explain the emergence of ChatGPT as a state-of-the-art language model. Discuss the capabilities of ChatGPT, such as natural language processing, contextual understanding, and response generation. Highlight its impact on various fields, including creative writing, customer service, and academic research.</p>
+
+							<p style="font-size: 1.2rem; font-weight: bold; line-height: 1.5rem;">AI in SF Literature Pre-ChatGPT Era</p>
+
+							<p style="line-height: 1.5rem;">Examine how AI was portrayed in SF literature before the advent of ChatGPT. Discuss the representation of AI as humanoid robots, sentient machines, or superintelligent entities. Explore the themes and ideas explored by authors, such as the fear of AI surpassing human intelligence or the blurring of the line between humans and machines.</p>
+
+							<p style="font-size: 1.2rem; font-weight: bold; line-height: 1.5rem;">AI in SF Literature Post-ChatGPT Era</p>
+
+							<p style="line-height: 1.5rem;">Analyze how the introduction of ChatGPT and similar language models has impacted SF literature. Discuss how authors have incorporated AI language models into their creative processes. Highlight the advantages and challenges of using AI-generated text in storytelling.</p>
+
+							<p style="font-size: 1.2rem; font-weight: bold; line-height: 1.5rem;">Ethical and Social Considerations</p>
+
+							<p style="line-height: 1.5rem;">Address the ethical and social considerations raised by AI in SF literature during the ChatGPT era. Discuss the potential consequences of AI-generated content, including issues of authorship, originality, and bias. Explore the themes of human-machine interaction, AI ethics, and the existential questions raised by AI in SF literature.</p>
+
+							<p style="font-size: 1.2rem; font-weight: bold; line-height: 1.5rem;">mpact on Readers and Writers</p>
+
+							<p style="line-height: 1.5rem;">xamine the impact of AI-generated content on readers and writers. Discuss the potential for engaging and immersive storytelling experiences. Highlight the opportunities and challenges faced by writers in adapting to the use of AI in their creative process.</p>
+
+							<p style="font-size: 1.2rem; font-weight: bold; line-height: 1.5rem;">Conclusion</p>
+
+							<p style="line-height: 1.5rem;">Summarize the key points discussed throughout the presentation. Emphasize the transformative role of AI, particularly ChatGPT, in SF literature. Encourage further exploration and critical analysis of AI in SF literature in the ChatGPT era.</p>
+
+							<p style="font-size: 1.2rem; font-weight: bold; line-height: 1.5rem;">Q&A Session</p>
+
+							<p style="line-height: 1.5rem;">Allocate time for questions and answers, allowing the audience to engage in a discussion about the topic. Note: This presentation provides a general outline, and you can expand on each slide with specific examples, quotes from SF literature, case studies, and current developments to create a comprehensive and engaging presentation.</p>
+							</div>
+							<a href="">
+							<div class="button" style="margin-left: 120px; ">
+							<p style="font-size: 2rem; color: black; margin: 0; padding-top: 10px; padding-left: 26px; color: white; font-weight: bold;">Go to submission</p>
+							</div>
+							</a>
+					</div>
+				</div>
+			<div class="footer border">
+					<div class="footer1"></div>
+					<div class="footer2"><p style="margin: 0; padding-top: 19px;">copyright 2023. YeonuCho. All rights reserved</p></div>
+				</div>
+			</div>
+		</section>
+	</div>
+</body>
+</html>
